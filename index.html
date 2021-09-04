@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Calculator</h1>
+        </div>
+        <div class="calculator">
+            <div class="row">
+                <div class="twelve columns">
+                    <input type="text" name="input" id="input" disabled>
+                </div>
+            </div>
+            <div class="row">
+                <div class="three columns"><button class="btn">7</button></div>
+                <div class="three columns"><button class="btn">8</button></div>
+                <div class="three columns"><button class="btn">9</button></div>
+                <div class="three columns"><button class="button-primary" id="divide"><i
+                            class="fas fa-divide"></i></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="three columns"><button class="btn">4</button></div>
+                <div class="three columns"><button class="btn">5</button></div>
+                <div class="three columns"><button class="btn">6</button></div>
+                <div class="three columns"><button class="button-primary" id="multiply"><i
+                            class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="three columns"><button class="btn">1</button></div>
+                <div class="three columns"><button class="btn">2</button></div>
+                <div class="three columns"><button class="btn">3</button></div>
+                <div class="three columns"><button class="button-primary" id="add"><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="three columns"><button class="btn">0</button></div>
+                <div class="three columns"><button class="button-primary" id="reset"><i
+                            class="fas fa-undo"></i></button>
+                </div>
+                <div class="three columns"><button class="button-primary" id="equals">=</button></div>
+                <div class="three columns"><button class="button-primary" id="minus"><i
+                            class="fas fa-minus"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.heading{
+    text-align: center;
+}
+.calculator{
+    width: 400px;
+    margin:auto;
+}
+.btn, .button-primary, input{
+    width: 100%;
+}
